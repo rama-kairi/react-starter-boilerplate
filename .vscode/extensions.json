@@ -1,0 +1,30 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "editorconfig.editorconfig",
+    "esbenp.prettier-vscode",
+    "mikestead.dotenv",
+    "mgmcdermott.vscode-language-babel",
+    "orta.vscode-jest",
+    "formulahendry.auto-close-tag",
+    "formulahendry.auto-rename-tag",
+    "aaron-bond.better-comments",
+    "streetsidesoftware.code-spell-checker",
+    "bierner.color-info",
+    "evondev.indent-rainbow-palettes",
+    "ecmel.vscode-html-css",
+    "wix.vscode-import-cost",
+    "ms-vscode.vscode-typescript-next",
+    "wallabyjs.quokka-vscode",
+    "christian-kohler.npm-intellisense",
+    "christian-kohler.path-intellisense",
+    "bradlc.vscode-tailwindcss",
+    "rangav.vscode-thunder-client",
+    "VisualStudioExptTeam.vscodeintellicode-insiders",
+    "VisualStudioExptTeam.intellicode-api-usage-examples",
+    "VisualStudioExptTeam.vscodeintellicode-completions",
+    "eg2.vscode-npm-script",
+    "mflo999.lintel"
+  ],
+  "unwantedRecommendations": []
+}

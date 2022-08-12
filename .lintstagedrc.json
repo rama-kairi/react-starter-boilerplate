@@ -1,0 +1,7 @@
+{
+  "*.css": "stylelint \"src/**/*.css\" --fix",
+  "*.scss": "stylelint \"src/**/*.scss\" --fix --syntax=scss",
+  "*": "prettier --ignore-unknown --write .",
+  "*.{ts,tsx}": "eslint --fix --ext .ts,.tsx src",
+  "*.{png,jpeg,jpg,gif,svg}": ["imagemin-lint-staged"]
+}

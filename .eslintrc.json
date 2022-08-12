@@ -1,0 +1,57 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "node": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:react-hooks/recommended",
+    "plugin:react/jsx-runtime",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:@typescript-eslint/recommended-requiring-type-checking",
+    "plugin:prettier/recommended",
+    "plugin:jest/recommended",
+    "plugin:cypress/recommended"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": "./tsconfig.json",
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "plugins": ["react", "@typescript-eslint"],
+  "ignorePatterns": [
+    "cypress/**/*",
+    "cypress.config.ts",
+    "vite.config.ts",
+    "jest.config.ts",
+    "commitlint.config.js"
+  ],
+  "rules": {
+    // "indent": ["error", "tab"],
+    // "linebreak-style": ["error", "unix"],
+    // "quotes": ["error", "single"],
+    // "semi": ["error", "always"],
+    "prettier/prettier": "error"
+  },
+  "overrides": [
+    {
+      "files": ["src/**/*.test.ts", "src/**/*.test.tsx"],
+      "env": {
+        "jest": true
+      },
+      "extends": ["plugin:jest/recommended"],
+      "plugins": ["jest"]
+    }
+  ],
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  }
+}

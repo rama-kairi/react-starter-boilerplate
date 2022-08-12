@@ -19,13 +19,3 @@ jobs:
         run: npm run lint:styles
       - name: Run Tests
         run: npm test
-        env:
-          CI: true
-      - name: Run Cypress
-        uses: cypress-io/github-action@v2
-        with:
-          build: npm run build
-          start: npm run serve -- --port=3000
-          wait-on: http://localhost:3000
-          browser: chrome
-          headless: true

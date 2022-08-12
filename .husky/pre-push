@@ -8,5 +8,7 @@ if [ $current_branch = "main" ]; then
   exit 1
 fi
 
-npx lint-staged
+
+npm run lint-fix:scripts
+npm run lint-fix:styles
 npm test

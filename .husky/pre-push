@@ -9,6 +9,6 @@ if [ $current_branch = "main" ]; then
 fi
 
 
-npm lint-fix:scripts
-npm lint-fix:styles
+npm run lint-fix:scripts
+npm run lint-fix:styles
 npm test

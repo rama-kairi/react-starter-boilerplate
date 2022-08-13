@@ -10,5 +10,4 @@
 
 
 npm run lint-fix:scripts
-npm run lint-fix:styles
 npm test

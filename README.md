@@ -94,9 +94,9 @@ There are number of awesome tools and utilities used in this project. (Starter B
 - [semantic-release](https://semantic-release.gitbook.io/semantic-release/)
 - [commitlint](https://commitlint.js.org/#/)
 
-> Explaining the usages details of the tools and utilities used in this project is not included in this document as it is a long list of tools and utilities and I'm not sure if it is worth the time to explain them.
+> _Explaining the usages details of the tools and utilities used in this project is not included in this document as it is a long list of tools and utilities and I'm not sure if it is worth the time to explain their implementation here._
 
-> Just a Note: Don't just cloning and using the project, You should deep dive into the project and understand the usage of the tools and utilities.
+> _Don't just clone and use the project, rather deep dive into the project and understand the usage and implementation of the tools and utilities used in the Project._
 
 ## Tests
 
